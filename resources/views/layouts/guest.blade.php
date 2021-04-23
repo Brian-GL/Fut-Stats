@@ -12,13 +12,19 @@
 
         <!-- Styles -->
         <link rel="stylesheet" href="{{ mix('css/app.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/login.css')}}">
+
+        <!-- Icon Nav -->
+        <link type="image/png" rel="icon" href="{{asset('images/icon.png')}}">
 
         <!-- Scripts -->
         <script src="{{ mix('js/app.js') }}" defer></script>
     </head>
-    <body>
-        <div class="font-sans text-gray-900 antialiased">
-            {{ $slot }}
-        </div>
+    
+    <body >
+    <div class="img cover"></div>
+    <div class="font-sans text-gray-900 antialiased">
+        {{ $slot }}
+    </div>
     </body>
 </html>
