@@ -38,6 +38,16 @@ html {
 }
 
 
+.masterhead{
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: url("../images/abigail-keenan-8-s5QuUBtyM-unsplash.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
 /*
 Sections
 ========
@@ -15489,6 +15499,7 @@ select {
 
 .min-h-screen {
   min-height: 100vh;
+
 }
 
 .min-w-0 {

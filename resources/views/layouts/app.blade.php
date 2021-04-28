@@ -12,7 +12,6 @@
 
         <!-- Styles -->
         <link rel="stylesheet" href="{{ mix('css/app.css') }}">
-        <link rel="stylesheet" href="{{ asset('css/login.css')}}">
 
         <!-- Icon Nav -->
         <link type="image/png" rel="icon" href="{{asset('images/icon.png')}}">

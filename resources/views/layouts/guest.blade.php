@@ -12,19 +12,30 @@
 
         <!-- Styles -->
         <link rel="stylesheet" href="{{ mix('css/app.css') }}">
-        <link rel="stylesheet" href="{{ asset('css/login.css')}}">
 
         <!-- Icon Nav -->
         <link type="image/png" rel="icon" href="{{asset('images/icon.png')}}">
+         <!-- Core theme CSS (includes Bootstrap)-->
+         <link rel="stylesheet" type="text/css" href="{{asset('css/presentation.css')}}" >
 
         <!-- Scripts -->
         <script src="{{ mix('js/app.js') }}" defer></script>
     </head>
     
     <body >
-    <div class="img cover"></div>
-    <div class="font-sans text-gray-900 antialiased">
+    <header class="masterhead">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center justify-content-center text-center">
+                <h1 class="text-uppercase text-white font-weight-bold">Fut-Stats - Página De Acceso Al Sistema</h1>
+            </div>
+        </div>
+    </header>
+    <!-- <img src="{{url('images/abigail-keenan-8-s5QuUBtyM-unsplash.jpg')}}" alt=""> -->
+    <div class="font-sans text-gray-900 antialiased cover">
+        
         {{ $slot }}
+        
     </div>
+
     </body>
 </html>
